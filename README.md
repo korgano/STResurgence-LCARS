@@ -3,6 +3,8 @@ LCARS themed version of the Star Trek: Resurgence website made with LCARS framew
 
 An attempt to improve the user experience of the game website by redesigning it to fit the Star Trek brand, by using Star Trek's LCARS GUI. Made in HTML/CSS.
 
+Visit the live prototype at https://korgano.github.io/STResurgence-LCARS/str-home.html
+
 LCARS Framework: https://github.com/joernweissenborn/lcars
 Credit to @jrwarwick, @joernweissenborn, joernweissenborn, @Garrett, @dthv
 
