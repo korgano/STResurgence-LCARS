@@ -342,7 +342,6 @@ html,
 body {
   font-family: "Arial", monospace;
   color: #fff;
-  width: 90vw;
 }
 h1 {
   font-size: 270%;
@@ -3131,6 +3130,13 @@ textarea.lcars-text-input.decorated.rounded.lcars-tamarillo-color {
   border-left: 0.8em solid #821;
   border-radius: 0.5em;
 }
+
+@media screen not (orientaion: landscape) {
+  body {
+    max-width: 95vw;
+  }
+}
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type='range'] {
     overflow: hidden;
@@ -4580,4 +4586,8 @@ table.lcars-table.scanning-fast tr:nth-child(12) td {
   100% {
     filter: brightness(1);
   }
+}
+
+.comic-cover {
+  max-width: 50%;
 }
